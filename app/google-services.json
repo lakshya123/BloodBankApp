@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "71116169817",
+    "firebase_url": "https://bloodbankapp-74dbc.firebaseio.com",
+    "project_id": "bloodbankapp-74dbc",
+    "storage_bucket": "bloodbankapp-74dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71116169817:android:a00af0215aed4971",
+        "android_client_info": {
+          "package_name": "com.billy.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71116169817-qfg0dlqtqp4nv0d4nfeqiksdvgklkh8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.billy.bloodbank",
+            "certificate_hash": "c959bb64faa93d8eac96883f34c32a1b6b3df26f"
+          }
+        },
+        {
+          "client_id": "71116169817-hfjev6m4kumhhoil9ahf56i91m79k3q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.billy.bloodbank",
+            "certificate_hash": "7ed3f4378c66b7947c4049912b7f8e87be246702"
+          }
+        },
+        {
+          "client_id": "71116169817-ogfat0p9nm887heut4qmmgfc043ob4hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.billy.bloodbank",
+            "certificate_hash": "5ac5744834099f45241933fe435a0360a03140b0"
+          }
+        },
+        {
+          "client_id": "71116169817-umm1esc8m4pm9turjue034uhogcu7rfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_EwadrquGuive4lQA_T2SHnZquPdiYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71116169817-umm1esc8m4pm9turjue034uhogcu7rfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

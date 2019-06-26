@@ -1,0 +1,55 @@
+<resources>
+    <string name="new_user">GET STARTED</string>
+    <string name="sign_up">Verification</string>
+    <string name="signup_text">Please enter your phone number</string>
+    <string name="todo">TODO</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="previous">Previous</string>
+    <string name="otp_text">Enter the OTP sent to your phone.</string>
+    <string name="otp">OTP</string>
+    <string name="finish_sign_up">Finish Sign Up</string>
+    <string name="blood_availability">CHECK BLOOD AVAILABILITY</string>
+    <string name="request">FILL BLOOD REQUEST</string>
+    <string name="title_activity_application__form">Application_Form</string>
+    <string name="heading">Please read the Instructions Carefully</string>
+
+    <string name="first">1.  5 ml patient’s blood in plain sterile test tube (12x100 mm), with stopper and properly labeled.
+</string>
+    <string name="second">2.  The Requisition Form must be completed in all respects.</string>
+    <string name="third">3.  All requests must accompany replacement of donors.</string>
+    <string name="fourth">4.  The indication for transfusion should be clearly mentioned.</string>
+    <string name="fifth">5.  To carry the blood/blood products the relative/patient’s attendant should be instructed to bring
+thermocole container. It is advised that the hospital authorities themselves should arrange to
+collect blood rather than through the relatives attendants.</string>
+    <string name="sixth">6.  Requisitions for emergency requirements are accepted round the clock.</string>
+    <string name="seventh">7.  Requisition for routine demands accepted between 9:30 am to 1:30 pm and 2pm to 3 pm.</string>
+    <string name="eigth">10.  Once the blood issued it will not be taken back.
+</string>
+    <string name="ninth">8.  Rs. 500/- (Rs. Five hundred only) per bag will be charged for consumables, testing charge and
+service charge and there will be no charge for the blood or its components.</string>
+    <string name="tenth">9.  Blood will be issued after testing, which will take approximately 3 hrs.</string>
+    <string name="eleven">11.  Follow up condition of the patient after the transfusion should be informed to IRCS.</string>
+
+    <string name="accept">PROCEED</string>
+    <string name="hname">Hospital\'s Name</string>
+    <string name="name">Patient\'s Name</string>
+    <string name="rname">Father\'s/Husband\'s Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="ward">Ward/Bed No.</string>
+    <string name="incharge">Doctor Incharge</string>
+    <string name="title_activity_applicationform">applicationform</string>
+
+    <array name="bgroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </array>
+
+</resources>

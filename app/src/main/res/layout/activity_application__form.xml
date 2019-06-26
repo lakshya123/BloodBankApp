@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@color/background"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                tools:context=".Application_Form">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColorHint="@color/dialog">
+
+                    <EditText
+                        android:id="@+id/pname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:ems="10"
+                        android:hint="Patient's Name"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColorHint="@color/dialog">
+
+                    <EditText
+                        android:id="@+id/rname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:ems="10"
+                        android:hint="Father/Husband's Name"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:id="@+id/sex">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="2dp"
+                            android:text="Gender"
+                            android:textColor="@color/dialog"
+                            android:textSize="15sp"
+                            android:paddingTop="10dp"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/male"
+                            android:text="Male"
+                            android:textColor="@color/dialog"
+                            android:textSize="15sp" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/female"
+                            android:text="Female"
+                            android:textColor="@color/dialog"
+                            android:textSize="15sp" />
+
+                    </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:textColorHint="@color/dialog">
+
+                        <EditText
+                            android:id="@+id/age"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:ems="10"
+                            android:hint="Age"
+                            android:inputType="number"
+                            android:textSize="15sp" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:textColorHint="@color/dialog">
+
+                        <EditText
+                            android:id="@+id/weight"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="50dp"
+                            android:ems="10"
+                            android:hint="Weight"
+                            android:inputType="number"
+                            android:textSize="15sp" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:textColorHint="@color/dialog">
+
+                        <EditText
+                            android:id="@+id/hname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                            android:ems="10"
+                            android:hint="Hospital's Name"
+                            android:inputType="text"
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColorHint="@color/dialog">
+
+                    <EditText
+                        android:id="@+id/doctor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        android:ems="10"
+                        android:hint="Doctor Incharge"
+                        android:inputType="text"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:textColorHint="@color/dialog">
+
+                        <EditText
+                            android:id="@+id/adno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:ems="10"
+                            android:hint="Patients Regd./Admn. No"
+                            android:inputType="number"
+                            android:textSize="15sp" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:textColorHint="@color/dialog">
+
+                            <EditText
+                                android:id="@+id/ward"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:ems="10"
+                                android:hint="Ward"
+                                android:textSize="15sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:textColorHint="@color/dialog">
+
+                            <EditText
+                                android:id="@+id/bed"
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="50dp"
+                                android:ems="10"
+                                android:hint="Bed No."
+                                android:textSize="15sp" />
+
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Required Blood Group"
+                            android:textColor="@color/dialog"
+                            android:textSize="15sp" />
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bloodgroup">
+
+
+                            <RadioButton
+                                android:id="@+id/A1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="A+"
+                                android:textColor="@color/dialog" />
+
+                            <RadioButton
+                                android:id="@+id/A2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="A-"
+                                android:textColor="@color/dialog" />
+
+
+
+                            <RadioButton
+                                android:id="@+id/B1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="B+"
+                                android:textColor="@color/dialog" />
+
+                            <RadioButton
+                                android:id="@+id/B2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="B-"
+                                android:textColor="@color/dialog" />
+
+
+                            <RadioButton
+                                android:id="@+id/O1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="O+"
+                                android:textColor="@color/dialog" />
+
+                            <RadioButton
+                                android:id="@+id/O2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="O-"
+                                android:textColor="@color/dialog" />
+
+
+
+                            <RadioButton
+                                android:id="@+id/AB1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="AB+"
+                                android:textColor="@color/dialog" />
+
+                            <RadioButton
+                                android:id="@+id/AB2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:text="AB-"
+                                android:textColor="@color/dialog" />
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Required Blood Unit"
+                            android:textColor="@color/dialog"
+                            android:textSize="15sp" />
+
+                      <RadioGroup
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/bloodtype">
+
+                        <RadioButton
+                            android:id="@+id/WB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="Whole Blood"
+                            android:textColor="@color/dialog" />
+
+                        <RadioButton
+                            android:id="@+id/PC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="Packed Cells"
+                            android:textColor="@color/dialog" />
+
+                          <RadioButton
+                              android:id="@+id/FFP"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="30dp"
+                              android:text="FFP"
+                              android:textColor="@color/dialog" />
+
+                          <RadioButton
+                              android:id="@+id/Plasma"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="30dp"
+                              android:text="Plasma"
+                              android:textColor="@color/dialog" />
+
+                          <RadioButton
+                              android:id="@+id/PConc"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="30dp"
+                              android:text="Platelet conc."
+                              android:textColor="@color/dialog" />
+
+
+
+                      </RadioGroup>
+
+
+                    </LinearLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textColorHint="@color/dialog">
+
+                    <EditText
+                        android:id="@+id/units"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="No. of Units Required"
+                        android:inputType="number"
+                        android:textSize="15sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_follow_background_three"
+                    android:text="Submit"
+                    android:textColor="#ffffff"
+                    android:textSize="27sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    </HorizontalScrollView>
+</RelativeLayout>
